@@ -1,5 +1,5 @@
 # InnoPoker
-Java project
+Java Bootcamp project
 
 ####TA: Bulat Gabbasov
 
