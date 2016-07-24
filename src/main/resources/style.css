@@ -1,0 +1,143 @@
+#pokertable {
+    -fx-background-image: url("table_background.png");
+    -fx-background-repeat: repeat;
+}
+
+#takeSeat {
+    -fx-background-color: #23685c;
+    -fx-text-fill: #5ca497;
+    -fx-border-color: rgba(92, 164, 151, 0.5);
+    -fx-border-width: 1px;
+    -fx-border-radius: 1px;
+    -fx-opacity: 0.5;
+
+}
+
+#takeSeat:hover {
+    -fx-cursor: pointer;
+    -fx-border-color: #ffffff;
+}
+
+#bottom_control {
+    -fx-background-color: #1a1a1a;
+}
+
+#right_control {
+    -fx-background-color: #1a1a1a;
+}
+#top_control {
+    -fx-background-color: #1a1a1a;
+}#left_control {
+    -fx-background-color: #1a1a1a;
+}
+
+#call-elloy {
+    -fx-background-color: #fbb03b;
+    -fx-background-radius: 1;
+    -fx-padding: 6 16 6 16;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+#call-elloy Text {
+    -fx-effect: dropshadow(one-pass-box, rgba(0, 0, 0, 0.8), 0, 0.0, 0, 1);
+}
+
+#fold-red {
+    -fx-background-color: #fd4b59;
+    -fx-background-radius: 1;
+    -fx-padding: 6 16 6 16;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+#fold-red Text {
+    -fx-effect: dropshadow(one-pass-box, rgba(0, 0, 0, 0.8), 0, 0.0, 0, 1);
+}
+
+#rate-label {
+    -fx-background-color: white;
+    -fx-background-radius: 1;
+    -fx-padding: 6 16 6 16;
+    -fx-text-fill: #484848;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+#control-rise {
+    -fx-background-color: #7cb9ad;
+    -fx-background-radius: 1;
+    -fx-padding: 6 16 6 16;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+#control-check {
+    -fx-background-color: #7cb9ad;
+    -fx-background-radius: 1;
+    -fx-padding: 6 16 6 16;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.bt-menu {
+    -fx-background-color: #1a1a1a;
+    -fx-background-radius: 1;
+    -fx-padding: 6 16 6 16;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+
+}
+
+.bt-menu2 {
+    -fx-background-image: url('http://icons.iconarchive.com/icons/aha-soft/desktop-buffet/128/Pizza-icon.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.toggle-button2:selected {
+    -fx-background-image: url('http://icons.iconarchive.com/icons/aha-soft/desktop-buffet/128/Piece-of-cake-icon.png');
+}
+
+.play-menu {
+    -fx-graphic: url("/ui/menu/play.png");
+}
+
+.settings-menu {
+    -fx-graphic: url("/ui/menu/settings.png");
+}
+
+.rules-menu {
+    -fx-graphic: url("/ui/menu/rules.png");
+}
+
+.exit-menu {
+    -fx-graphic: url("/ui/menu/exit.png");
+}
+.bots-menu {
+    -fx-graphic: url("/ui/menu/bots.png");
+}
+
+.bet-menu {
+    -fx-graphic: url("/ui/menu/bet.png");
+}
+
+
+.list-cell:odd {
+    -fx-cell-hover-color: #0093ff;
+    -fx-background-color: #1a1a1a;
+    -fx-text-fill: #999;
+}
+
+
+.list-cell:even {
+    -fx-cell-hover-color: #0093ff;
+    -fx-background-color: #0a0a0a;
+    -fx-text-fill: white;
+}
+
